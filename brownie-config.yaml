@@ -9,8 +9,11 @@ dotenv: .env
 
 networks:
   sepolia3:
-    eth_usd-price_feed: "0x694AA1769357215DE4FAC081bf1f309aDC325306"
+    eth_usd_price_feed: "0x694AA1769357215DE4FAC081bf1f309aDC325306"
     verify: True
+  mainnet-fork:
+    eth_usd_price_feed: "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419"
+    verify: False
   development:
     verify: False
   ganache-local:
